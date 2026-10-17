@@ -1,0 +1,17 @@
+name: hit5_unityads_adapter
+description: Unity Ads iOS adapter integration for HIT5.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: HIT5UnityAdsAdapterPlugin
