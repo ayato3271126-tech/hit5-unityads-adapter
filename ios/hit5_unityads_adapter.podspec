@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source_files     = 'Classes/**/*'
 
   s.dependency 'Flutter'
-  s.dependency 'IronSourceUnityAdsAdapter', '5.8.1'
+  s.dependency 'IronSourceUnityAdsAdapter', '5.11.0.0'
 
   s.static_framework = true
 end
